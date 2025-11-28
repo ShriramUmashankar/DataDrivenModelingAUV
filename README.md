@@ -4,13 +4,13 @@ This repository contains the code for modeling the dynamics of an Autonomous Und
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 The typical workflow for this project involves data generation, model training, and finally, running the simulation with different controllers. The following sections are arranged in the recommended order of execution.
 
 ---
 
-## 🛠️ Project Structure and File Descriptions
+## Project Structure and File Descriptions
 
 ### 1. Configuration and Utility Files
 
@@ -50,7 +50,5 @@ The typical workflow for this project involves data generation, model training, 
 | File | Description |
 | :--- | :--- |
 | `run.py` | The main execution script. It loads the necessary components, runs the **entire simulation** using one of the controllers from `Controller.py`, and **plots the final results**. |
-| `compare_sindy_vs_normal.py` | A utility script to **compare** the performance and prediction accuracy of the **SINDy** model against a reference (or 'normal') dynamics model. |
-| `sindy_dmd_test.py` | Script to test the trained SINDy and DMDC models on a separate test dataset. |
-| `sindy_predict.py` | Script to check how well the trained SINDy model can predict the AUV's motion. |
-| `sindy_test.py` | Another utility script for testing the SINDy model's performance. |
+
+
